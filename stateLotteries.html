@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- These meta tags come first. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lottery Edge</title>
+    <!-- CSS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- http://necolas.github.io/normalize.css/ -->
+    <link href="dist/toolkit.min.css" rel="stylesheet">
+    <!-- https://themes.getbootstrap.com/products/application -->
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <!-- Assignment 9
+    ** During the final class, present your Web site and briefly discuss it. Demonstrate the site and talk about whatever you find most interesting, whether that is features you put in or difficulties you ran into, or both.
+    -->
+  <body class="stateLotteries">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="nav nav-tabs">
+          <li role="presentation"><a href="index.html">Home</a></li>
+          <li role="presentation"><a href="powerball.html">Powerball</a></li>
+          <li role="presentation"><a href="megamillions.html">Mega Millions</a></li>
+          <li role="presentation" class="active"><a href="stateLotteries.html">State Lotteries</a></li>
+          <li role="presentation"><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <!-- container-fluid -->
+    </nav>
+    <!-- navbar navbar-default -->
+    <div class="page-header">
+      <h1>Lottery Edge - State Lotteries</h1>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        Several states and territories do not have lotteries.
+      </div>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-bordered table-condensed">
+        <thead>
+          <tr><th>Name</th><th>Link</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Alabama</td><td>AL</td></tr>
+          <tr><td>Alaska</td><td>AK</td></tr>
+          <tr><td>American Samoa</td><td>AS</td></tr>
+          <tr><td>Arizona</td><td><a href="https://www.arizonalottery.com/" target="_blank">AZ</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="list-group">
+      <li class="list-group-item"><span class="badge">AL</span>Alabama</li>
+      <li class="list-group-item"><span class="badge">AK</span>Alaska</li>
+      <li class="list-group-item"><span class="badge">AS</span>American Samoa</li>
+      <li class="list-group-item"><span class="badge">AZ</span>Arizona</li>
+      <li class="list-group-item"><span class="badge">...</span>...</li>
+    </ul>    
+    <!-- FOOTER -->    
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container bg-primary">
+        <p>&copy; 2017 Robert M. Rutherford</p>
+      </div>
+    </nav>
+    <!-- JavaScript -->
+    <!-- Include jQuery (required) and the JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="dist/toolkit.min.js"></script> <!-- https://themes.getbootstrap.com/products/application -->
+    <script src="https://cdn.jsdelivr.net/jstat/latest/jstat.min.js"></script> <!-- https://github.com/jstat/jstat -->
+    <script src="js/powerball1.js"></script>
+    <script src="js/megamillions1.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- These meta tags come first. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lottery Edge</title>
+    <!-- CSS -->
+    <link href="css/normalize.css" rel="stylesheet"> <!-- http://necolas.github.io/normalize.css/ -->
+    <link href="dist/toolkit.min.css" rel="stylesheet"> <!-- https://themes.getbootstrap.com/products/application -->
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <!-- Assignment 9
+    ** During the final class, present your Web site and briefly discuss it. Demonstrate the site and talk about whatever you find most interesting, whether that is features you put in or difficulties you ran into, or both.
+    -->
+  <body class="about">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="nav nav-tabs">
+          <li role="presentation"><a href="index.html">Home</a></li>
+          <li role="presentation"><a href="powerball.html">Powerball</a></li>
+          <li role="presentation"><a href="megamillions.html">Mega Millions</a></li>
+          <li role="presentation"><a href="stateLotteries.html">State Lotteries</a></li>
+          <li role="presentation" class="active"><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <!-- container-fluid -->
+    </nav>
+    <!-- navbar navbar-default -->
+    <div class="page-header">
+      <h1>Lottery Edge - About</h1>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-body">
+        <p>Lottery Edge is a demonstration web site developed during the University of Washington (UW) Professional &amp; Continuing Education (PCE) class <a href="https://www.pce.uw.edu/courses/html5-application-programming-interfaces-apis">HTML5 Application Programming Interfaces (API).</a> This class is part of the UW certificate program <a href="https://www.pce.uw.edu/certificates/html5-css3-responsive-design-web-development">HTML5, CSS3 & Responsive Design For Web Development.</a></p>
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Software sources</h3>
+      </div>      
+      <!-- <div class="panel-body"> </div> -->
+      <ul class="list-group">
+        <li class="list-group-item"><a href="http://getbootstrap.com/">Bootstrap</a> is a HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.</li>
+        <li class="list-group-item"><a href="http://jquery.com/">jQuery</a> is a JavaScript library that makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</li>
+        <li class="list-group-item"><a href="https://github.com/jstat/jstat">jStat</a> is a statistical library written in JavaScript that allows you to perform advanced statistical operations without the need of a dedicated statistical language (e.g. MATLAB or R).</li>
+        <li class="list-group-item"><a href="http://necolas.github.io/normalize.css/">Normalize.css</a> is a CSS file that makes browsers render all elements more consistently and in line with modern standards by precisely targeting only the styles that need normalizing.</li>
+      </ul>      
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Data sources</h3>
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item"><a href="http://www.megamillions.com/winning-numbers">Mega Millions winning numbers</a></li>
+        <li class="list-group-item"><a href="http://www.powerball.com/powerball/pb_numbers.asp">Powerball winning numbers</a></li>
+        <li class="list-group-item"><a href="https://gist.github.com/mshafrir/2646763">US states list</a></li>
+      </ul>
+    </div>
+    <!-- FOOTER -->
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container bg-primary">
+        <p>&copy; 2017 Robert M. Rutherford</p>
+      </div>
+    </nav>
+    <!-- JavaScript -->
+    <!-- Include jQuery (required) and the JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="dist/toolkit.min.js"></script> <!-- https://themes.getbootstrap.com/products/application -->
+    <script src="https://cdn.jsdelivr.net/jstat/latest/jstat.min.js"></script> <!-- https://github.com/jstat/jstat -->
+    <script src="js/powerball1.js"></script>
+    <script src="js/megamillions1.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

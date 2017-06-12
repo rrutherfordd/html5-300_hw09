@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- These meta tags come first. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lottery Edge</title>
+    <!-- CSS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- http://necolas.github.io/normalize.css/ -->
+    <link href="dist/toolkit.min.css" rel="stylesheet">
+    <!-- https://themes.getbootstrap.com/products/application -->
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <!-- Assignment 9
+    ** During the final class, present your Web site and briefly discuss it. Demonstrate the site and talk about whatever you find most interesting, whether that is features you put in or difficulties you ran into, or both.
+    -->
+  <body class="megamillions">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="nav nav-tabs">
+          <li role="presentation"><a href="index.html">Home</a></li>
+          <li role="presentation"><a href="powerball.html">Powerball</a></li>
+          <li role="presentation" class="active"><a href="megamillions.html">Mega Millions</a></li>
+          <li role="presentation"><a href="stateLotteries.html">State Lotteries</a></li>
+          <li role="presentation"><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <!-- container-fluid -->
+    </nav>
+    <!-- navbar navbar-default -->
+    <div class="page-header">
+      <h1>Lottery Edge - Mega Millions</h1>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <a href="http://www.megamillions.com/">Mega Millions</a> is a multi-state lottery where six numbers are drawn<blockquote>... from two separate pools of numbers - five different numbers <i>(i.e., the  white balls)</i> from 1 to 75 and one number <i>(i.e., the Megaball)</i> from 1 to 15 ...</blockquote>
+      </div>
+    </div>
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default btn-success">Winning Numbers</button>
+      </div>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default btn-secondary">Whiteball Frequency</button>
+      </div>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default btn-danger">Megaball Frequency</button>
+      </div>
+    </div>
+    <div class="table-responsive">
+      <table class="table">
+        <thead id="powerballThead"></thead>
+        <tbody id="powerballTbody"></tbody>
+      </table>
+    </div>
+    <!-- FOOTER -->    
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container bg-primary">
+        <p>&copy; 2017 Robert M. Rutherford</p>
+      </div>
+    </nav>
+    <!-- JavaScript -->
+    <!-- Include jQuery (required) and the JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="dist/toolkit.min.js"></script> <!-- https://themes.getbootstrap.com/products/application -->
+    <script src="https://cdn.jsdelivr.net/jstat/latest/jstat.min.js"></script> <!-- https://github.com/jstat/jstat -->
+    <script src="js/powerball1.js"></script>
+    <script src="js/megamillions1.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

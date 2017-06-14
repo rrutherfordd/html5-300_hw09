@@ -1,6 +1,6 @@
 /* || Test connection to index.html */
 body {
-  margin: 12px;
+  margin: 24px;
 }
 
 body.home {
@@ -14,28 +14,24 @@ body.home {
 body.megamillions {
   background-image:url("../images/blue_skies_on_pluto-final-2_25percent.png");
   background-repeat:no-repeat;
-  background-size:small;
   background-color:black;
 }
 
 body.powerball {
   background-image:url("../images/blue_skies_on_pluto-final-2_25percent.png");
   background-repeat:no-repeat;
-  background-size:small;
   background-color:black;
 }
 
 body.stateLotteries {
   background-image:url("../images/blue_skies_on_pluto-final-2_25percent.png");
   background-repeat:no-repeat;
-  background-size:small;
   background-color:black;
 }
 
 body.about {
   background-image:url("../images/blue_skies_on_pluto-final-2_25percent.png");
   background-repeat:no-repeat;
-  background-size:small;
   background-color:black;
 }
 /* TODO Try different backgrounds */
@@ -47,6 +43,12 @@ h1 {
 
 th,td {
   color:antiquewhite;
+}
+
+td.lotteryLink {
+  color: dodgerblue;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 li.active {

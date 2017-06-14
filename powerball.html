@@ -31,30 +31,31 @@
     </nav>
     <!-- navbar navbar-default -->
     <div class="page-header">
-      <h1>Lottery Edge - Powerball</h1>
+      <h1>Lottery Edge - Powerball&reg;</h1>
     </div>
     <div class="panel panel-default">
       <div class="panel-body">
-        <a href="http://www.powerball.com/">Powerball</a> is a multi-state lottery where six numbers are drawn by selecting<blockquote>... five white balls out of a drum with 69 balls and one red ball <i>(i.e., the Powerball)</i> out of a drum with 26 red balls ...</blockquote>
+        <a href="http://www.powerball.com/">Powerball&reg;</a> is a multi-state lottery where six numbers are drawn by selecting ... <blockquote>five white balls out of a drum with 69 balls and one red ball <i>(i.e., the Powerball&reg;)</i> out of a drum with 26 red balls ...</blockquote>
       </div>
     </div>
-    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+    <div class="btn-group btn-group-justified" role="group" aria-label="..."> <!-- TODO aria-label -->
       <div class="btn-group" role="group">
-        <button type="button" class="btn btn-default btn-success">Winning Numbers</button>
+        <button id="winningNumbersPb" type="button" class="btn btn-default btn-primary">Winning Numbers</button>
       </div>
       <div class="btn-group" role="group">
-        <button type="button" class="btn btn-default btn-secondary">Whiteball Frequency</button>
+        <button id="whiteballPbFrequency" type="button" class="btn btn-default btn-secondary">Whiteball Frequency</button>
       </div>
       <div class="btn-group" role="group">
-        <button type="button" class="btn btn-default btn-danger">Powerball Frequency</button>
+        <button id="powerballPbFrequency" type="button" class="btn btn-default btn-danger">Powerball&reg; Frequency</button>
       </div>
     </div>
     <div class="table-responsive">
-      <table class="table">
-        <thead id="megaMillionsThead"></thead>
-        <tbody id="megaMillionsTbody"></tbody>
+      <table class="table table-bordered table-condensed">
+        <thead id="powerballThead"></thead>
+        <tbody id="powerballTbody"></tbody>
       </table>
     </div>
+    <br/><br/>
     <!-- FOOTER -->    
     <nav class="navbar navbar-default navbar-fixed-bottom">
       <div class="container bg-primary">
@@ -68,6 +69,7 @@
     <script src="https://cdn.jsdelivr.net/jstat/latest/jstat.min.js"></script> <!-- https://github.com/jstat/jstat -->
     <script src="js/powerball1.js"></script>
     <script src="js/megamillions1.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/states1.js"></script>
+    <script src="js/main1.js"></script>
   </body>
 </html>
